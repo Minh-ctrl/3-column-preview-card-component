@@ -1,7 +1,11 @@
-<script setup>
-// import HelloWorld from "./components/HelloWorld.vue";
+<script>
 import CarCard from "./components/CarCard.vue";
-let sedan = "test";
+
+export default {
+  components:{
+    CarCard
+  }
+}
 </script>
 
 <template>
