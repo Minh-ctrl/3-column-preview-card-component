@@ -11,9 +11,9 @@ export default {
 <template>
   <main>
     <div class="container">
-      <CarCard title="SEDANS" sedans="true" class="orange" />
-      <CarCard title="LUXURY" luxury="true" class="cyan" />
-      <CarCard title="SUVS" suv="true" class="dark-cyan" />
+      <CarCard title="SEDANS" sedans class="orange" />
+      <CarCard title="LUXURY" luxury class="cyan" />
+      <CarCard title="SUVS" suv class="dark-cyan" />
     </div>
   </main>
 </template>
